@@ -4,8 +4,10 @@ import { Button, StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>WELCOME</Text>
-      <Text>Let's Hunt Native !!</Text>
+      <View>
+          <Text style={styles.dummyText}>WELCOME</Text>
+      </View>
+      <Text style={styles.dummyText}>Let's Hunt Native !!</Text>
       <Button title='Tap me'/>
     </View>
   );
@@ -18,4 +20,10 @@ const styles = StyleSheet.create({
     alignItems:'center',
     justifyContent: 'center',
   },
+  dummyText:{
+    margin:16,
+    padding: 15,
+    borderWidth:2,
+    borderColor:'gray',
+  }
 });
