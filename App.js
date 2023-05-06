@@ -27,6 +27,7 @@ export default function App() {
         />
         <Button title="Add Goal" onPress={addGoalHandler} />
       </View>
+      <Button title="remove goal" onPress={addGoalHandler} />
       <View>
         
       </View>
