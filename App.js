@@ -65,9 +65,9 @@ const styles = StyleSheet.create({
     margin: 8,
     padding: 8,
     borderRadius: 6,
-    backgroundColor:'green',
+    backgroundColor:'blue',
   },
   goalText:{
-    color:'white',
+    color:'red',
   }
 });
