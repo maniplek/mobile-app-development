@@ -76,6 +76,6 @@ const styles = StyleSheet.create({
     backgroundColor:'#5e0acc',
   },
   goalText:{
-    color:'white',
+    color:'red',
   }
 });
