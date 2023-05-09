@@ -73,6 +73,6 @@ const styles = StyleSheet.create({
     backgroundColor:'blue',
   },
   goalText:{
-    color:'red',
+    color:'white',
   }
 });
