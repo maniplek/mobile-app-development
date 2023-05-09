@@ -70,12 +70,12 @@ const styles = StyleSheet.create({
     flex: 5,
   },
   goalItem:{
-    margin: 8,
-    padding: 8,
-    borderRadius: 6,
+    margin: 10,
+    padding: 10,
+    borderRadius: 8,
     backgroundColor:'#5e0acc',
   },
   goalText:{
-    color:'red',
+    color:'white',
   }
 });
